@@ -53,8 +53,21 @@ export default function Home() {
           </p>
         </div>
 
-        {/* Desktop hero background image - visible on all screen sizes */}
-        <div className="hero-desktop-container h-full w-full">
+        {/* Mobile hero background image */}
+        <div className="hero-mobile-container h-full w-full block md:hidden">
+          <Image
+            src="/heromobile.jpg"
+            alt="Cabane Badger Ridge - Glamping chata Vysoké Mýto, pronájem chaty Pardubice"
+            fill
+            className="object-cover"
+            priority
+            quality={100}
+            sizes="100vw"
+          />
+        </div>
+
+        {/* Desktop hero background image */}
+        <div className="hero-desktop-container h-full w-full hidden md:block">
           <Image
             src="/herodesktop.png"
             alt="Cabane Badger Ridge - Glamping chata Vysoké Mýto, pronájem chaty Pardubice"
