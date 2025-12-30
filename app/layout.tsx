@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Cabane Badger Ridge | Glamping chata Vysoké Mýto | Pronájem chaty Pardubice",
+  title: "Cabane",
   description: "Luxusní glamping chata v přírodě u Vysokého Mýta. Pronájem moderní dřevěné chaty pro dovolenou. Ubytování v přírodě Pardubice.",
   keywords: ["glamping", "Vysoké Mýto", "chata", "ubytování", "dovolená", "pronájem chaty", "chaty", "pronájem chaty Pardubice", "Pardubice", "glamping Pardubice"],
   authors: [{ name: "Cabane Badger Ridge" }],
