@@ -61,7 +61,8 @@ export default function Home() {
             fill
             className="object-cover"
             priority
-            unoptimized
+            quality={100}
+            sizes="100vw"
           />
         </div>
       </div>
